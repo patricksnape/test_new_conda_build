@@ -9,7 +9,7 @@ file( GLOB SOURCES *.cc *.cpp )
 ## Source file containing the "main" function
 set( MAIN_SOURCES main.cpp )
 ## Specify a name for the generated executable file
-set( MAIN_EXE_NAME generic_executable )
+set( MAIN_EXE_NAME conda_test )
 
 ## 1. Compile...
 add_executable( ${MAIN_EXE_NAME} ${MAIN_SOURCES}

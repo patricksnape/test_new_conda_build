@@ -5,3 +5,7 @@ package:
 requirements:
   build:
     - cmake
+
+test:
+  commands:
+    - conda_test

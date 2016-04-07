@@ -7,8 +7,8 @@ environment:
     - PYTHON_VERSION: 3.5
 
 platform:
-- x86
-- x64
+  - x86
+  - x64
 
 install:
-- cmd:  run.bat
+  - cmd:  run.bat
