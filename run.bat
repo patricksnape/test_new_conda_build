@@ -16,7 +16,7 @@ if "%PYTHON_VERSION%" == "2.7" (
     %MINICONDA_DIR%\conda.exe build recipe --py=%PYTHON_VERSION%
     if errorlevel 1 exit 1
     rem Test VS 2008 - First remove vcvarsall for Python tools
-    rm %LOCALAPPDATA%\Programs\Common\Microsoft\Visual C++ for Python\9.0\vcvarsall.bat
+    del %LOCALAPPDATA%\Programs\Common\Microsoft\Visual C++ for Python\9.0\vcvarsall.bat
     %MINICONDA_DIR%\conda.exe build recipe --py=%PYTHON_VERSION%
     if errorlevel 1 exit 1
 ) else (
