@@ -1,3 +1,4 @@
+echo %PLATFORM%
 if %PLATFORM% == "x86" (
     set MINICONDA_DIR=C:\Miniconda\Scripts
 )
