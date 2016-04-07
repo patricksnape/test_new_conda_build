@@ -1,5 +1,3 @@
-conda build --version
-
 robocopy %RECIPE_DIR%\project . /E /NFL /NDL
 
 mkdir build
