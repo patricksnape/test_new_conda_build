@@ -5,6 +5,7 @@ if "%PLATFORM%" == "x64" (
     set MINICONDA_DIR=C:\Miniconda-x64\Scripts
 )
 
+%MINICONDA_DIR%\conda.exe install conda -y
 %MINICONDA_DIR%\conda.exe update --all -y
 %MINICONDA_DIR%\conda.exe install pip -y
 %MINICONDA_DIR%\conda.exe install conda-build -y
